@@ -192,7 +192,7 @@
 
             var shrinkRatio = $scope.getShrinkRatio();
 
-            $scope.originalSelection = [];
+            //$scope.originalSelection = [];
             $scope.originalSelection[0] = Math.round(coords.x * shrinkRatio);
             $scope.originalSelection[1] = Math.round(coords.y * shrinkRatio);
             $scope.originalSelection[2] = Math.round(coords.x2 * shrinkRatio);
